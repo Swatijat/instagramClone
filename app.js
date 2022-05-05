@@ -4,7 +4,7 @@ var cors = require("cors");
 const connectDb = require("./config/dbConn");
 const app = express();
 const PORT = process.env.PORT || 8080;
-
+// this is my project
 app.use(cors());
 connectDb();
 app.use(express.json());
