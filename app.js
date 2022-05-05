@@ -14,7 +14,6 @@ require("./models/post");
 app.use(require("./routes/auth"));
 app.use(require("./routes/post"));
 app.use(require("./routes/user"));
-app.use(require("./routes/cart"));
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("client/build"));
